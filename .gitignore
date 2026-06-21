@@ -9,5 +9,3 @@ htmlcov/
 
 .vscode/
 
-.DS_Store
-.dockerignore
