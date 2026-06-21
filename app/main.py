@@ -1,6 +1,9 @@
 from fastapi import FastAPI
 
-from app.api.routes.health import router as health_router
+from app.api.routes import health, tool
+# for testing tools
+
+from app.api.routes import tool
 
 app = FastAPI(
     title="blogsvc",
@@ -8,7 +11,9 @@ app = FastAPI(
     description="Simple blog CMS backend",
 )
 
-app.include_router(health_router)
+app.include_router(health.router)
+# testing for tools routes
+app.include_router(tool.router)
 
 
 @app.get("/")
