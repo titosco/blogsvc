@@ -1,0 +1,98 @@
+// add this file to configure your settings for vscode. For more information, see the documentation:
+
+{
+  "files.autoSaveDelay": 20,
+  "files.eol": "\n",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.confirmOnExit": "always",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.env.linux": {},
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.shellIntegration.history": 10000,
+  "terminal.integrated.tabs.focusMode": "singleClick",
+  "window.commandCenter": true,
+  "java.import.gradle.java.home": "/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.wordWrap": "on",
+  "editor.multiCursorModifier": "alt",
+  "editor.rulers": [
+    {
+      "column": 79, // for docstring length
+      "color": "#4444443d"
+    },
+    {
+      "column": 79, // for code length
+      "color": "#4444447f"
+    }
+    // 100,  // <- max code length with the default color or as customized (with "editorRuler.foreground") at column 100
+  ],
+  "workbench.colorCustomizations": {
+    "editorRuler.foreground": "#444444bf"
+  },
+  "workbench.editor.enablePreview": true,
+  "workbench.startupEditor": "none",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "python.linting.pylintArgs": [
+    "--disable=C0114", // missing-module-docstring
+    "--disable=C0115", // missing-class-docstring
+    "--disable=C0116", // missing-function-docstring
+    "--disable=E1121", // too-many-function-args
+    "--disable=R0913", // too-many-arguments
+    "--disable=W0105", // pointless-string-statement
+    "--disable=W0246" // useless-parent-delegation
+  ],
+  "python.analysis.autoFormatStrings": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.inlayHints.callArgumentNames": true,
+  "python.analysis.inlayHints.pytestParameters": true,
+  "python.analysis.inlayHints.variableTypes": true,
+  "python.analysis.completeFunctionParens": true,
+  "todo-tree.general.showActivityBarBadge": true,
+  "search.quickOpen.includeSymbols": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "accessibility.signals.terminalBell": {
+    "sound": "on"
+  },
+  "terminal.integrated.enableVisualBell": true,
+  "terminal.integrated.cursorStyleInactive": "block",
+  "xmlTools.enableXmlTreeViewCursorSync": true,
+  "python.terminal.focusAfterLaunch": true,
+  "tabnine.codeLensEnabled": false,
+  "tabnine.completionsLoadingIndicatorEnabled": false,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "claudeCode.preferredLocation": "panel"
+}
