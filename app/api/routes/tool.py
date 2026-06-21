@@ -11,7 +11,7 @@ def tool_check() -> dict[str, str]:
 @router.get("/path")
 def tool_check() -> dict[str, str]:
     return {"status": "ok", "service": "blogsvc", "path": "/tool/path"}
-
+# somegi
     # running for post request
 class ToolRequest(BaseModel):
     name: str
